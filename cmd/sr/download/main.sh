@@ -15,3 +15,6 @@ seohasong
 mv data/boilerplate/.git data/SEOHASONG/boilerplate
 rm -r data/boilerplate
 mv data/SEOHASONG/boilerplate data
+
+cd data/boilerplate
+git submodule update
