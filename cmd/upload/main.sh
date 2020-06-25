@@ -1,10 +1,15 @@
-if [[ -d .git && $PWD != $DDD_PATH ]]
-then
+_upload()
+{
     git config user.email "tisutoo@gmail.com"
     git config user.name "seohasong"
     git add .
-    git commit -m "continue previous working"
+    git commit -m "continue previous working" || :
     git push
+}
+
+if [[ -d .git && $PWD != $DDD_PATH ]]
+then
+    _upload
     return
 fi
 
@@ -16,9 +21,5 @@ do (
     if [ ! -d $apath ]; then continue; fi
     $DDD echo Update \'$apath\' repo
     cd $apath
-    git config user.email "tisutoo@gmail.com"
-    git config user.name "seohasong"
-    git add .
-    git commit -m "continue previous working" || :
-    git push
+    _upload
 ) done
