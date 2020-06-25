@@ -1,5 +1,7 @@
-if [[ -d .git ]]
+if [[ -d .git && $PWD != $DDD_PATH ]]
 then
+    git config user.email "tisutoo@gmail.com"
+    git config user.name "seohasong"
     git add .
     git commit -m "continue previous working"
     git push
@@ -18,5 +20,5 @@ do (
     git config user.name "seohasong"
     git add .
     git commit -m "continue previous working" || :
-    git push || :
+    git push
 ) done
