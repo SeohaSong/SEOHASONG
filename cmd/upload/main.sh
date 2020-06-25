@@ -18,5 +18,5 @@ do (
     git config user.name "seohasong"
     git add .
     git commit -m "continue previous working" || :
-    git push origin master )
-done
+    git push origin master
+) done
