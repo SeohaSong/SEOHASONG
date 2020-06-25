@@ -1,3 +1,11 @@
+if [[ -d .git ]]
+then
+    git add .
+    git commit -m "continue previous working"
+    git push
+    return
+fi
+
 paths="$DDD_PATH/ddd $DDD_PATH"
 apaths=$( for v in $paths; do ( cd $v && pwd ); done )
 for apath in $apaths
