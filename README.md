@@ -7,3 +7,12 @@
 
 ## funfun
 - https://sir.kr/g5_tip/11468
+- python cxx binding
+    https://realpython.com/python-bindings-overview/
+- node cxx binding
+    https://z-wony.tistory.com/12
+- google
+    https://docs.google.com/document/d/122j9aYgq7HEMA8LKtrgOCb9qFC2klnmTtSctzTHLybs/edit
+- 소나큐브
+- circleci
+- http://blog.behnel.de/posts/cython-pybind11-cffi-which-tool-to-choose.html
