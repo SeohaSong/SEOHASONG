@@ -1,8 +1,8 @@
 upload()
 {(
-    echo asdf
 
-    $DDD .-trap
+    asdf
+
     cd $1
     $DDD echo Update \'$apath\' repo
     git config user.email "tisutoo@gmail.com"
