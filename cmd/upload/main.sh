@@ -1,10 +1,10 @@
 upload()
 {(
-
-    asdf
+    $DDD .-trap
 
     cd $1
     $DDD echo Update \'$apath\' repo
+    
     git config user.email "tisutoo@gmail.com"
     git config user.name "seohasong"
     git add .
