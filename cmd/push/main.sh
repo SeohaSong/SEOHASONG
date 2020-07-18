@@ -1,4 +1,4 @@
-upload()
+push()
 {(
     $DDD .-trap
 
@@ -14,7 +14,7 @@ upload()
 
 if [[ -d .git && $PWD != $DDD_PATH ]]
 then
-    upload
+    push
     return
 fi
 
@@ -22,6 +22,6 @@ for apath in $DDD_PATH/ddd $DDD_PATH
 do
     if [ -d $apath ]
     then
-        upload $apath
+        push $apath
     fi
 done
