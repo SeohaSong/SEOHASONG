@@ -1,0 +1,3 @@
+[submodule "ddd"]
+	path = ddd
+	url = https://github.com/SeohaSong/ddd.git
