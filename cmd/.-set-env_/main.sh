@@ -4,6 +4,11 @@ main()
     then
         sudo service ssh restart
     fi
+
+    exe()
+    {
+        eval 'cmd.exe /c "$@"'
+    }
 }
 
 main
