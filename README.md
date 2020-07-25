@@ -6,18 +6,22 @@
 
 ## DEV
 - 자동완성기능
-- typeScript
-    - https://github.com/DefinitelyTyped/DefinitelyTyped
 - get user media
     - https://www.html5rocks.com/ko/tutorials/getusermedia/intro/
-- gan cheat
-    - https://github.com/soumith/ganhacks
-- python cxx binding
-    - https://realpython.com/python-bindings-overview/
-- node cxx binding
-    - https://z-wony.tistory.com/12
-- google
-    - https://docs.google.com/document/d/122j9aYgq7HEMA8LKtrgOCb9qFC2klnmTtSctzTHLybs/edit
 - 소나큐브
 - circleci
-- http://blog.behnel.de/posts/cython-pybind11-cffi-which-tool-to-choose.html
+
+## LEARN
+- https://web.dev/learn/
+- typeScript
+    - https://github.com/DefinitelyTyped/DefinitelyTyped
+- gan cheat
+    - https://github.com/soumith/ganhacks
+- google
+    - https://docs.google.com/document/d/122j9aYgq7HEMA8LKtrgOCb9qFC2klnmTtSctzTHLybs/edit
+- js cxx binding
+    - node to cpp
+    - webAssembly
+- python cxx binding
+    - https://realpython.com/python-bindings-overview/
+    - http://blog.behnel.de/posts/cython-pybind11-cffi-which-tool-to-choose.html
