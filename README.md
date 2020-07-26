@@ -5,6 +5,7 @@
 - https://www.allacronyms.com/
 
 ## DEV
+- BASE 환경변수 => doc 읽어서 라우터가 알아서 처리
 - 자동완성기능
 - get user media
     - https://www.html5rocks.com/ko/tutorials/getusermedia/intro/
