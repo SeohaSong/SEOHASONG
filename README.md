@@ -13,6 +13,8 @@
 - circleci
 
 ## LEARN
+- LLVM
+    - https://pdfs.semanticscholar.org/9c64/4f8a2a9135c38edb23437e30aed60a81cbee.pdf?_ga=2.227376664.403027902.1596098548-220327451.1596098548
 - https://web.dev/learn/
 - typeScript
     - https://github.com/DefinitelyTyped/DefinitelyTyped
