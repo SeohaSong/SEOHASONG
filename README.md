@@ -4,34 +4,6 @@
 ## 줄임말
 - https://www.allacronyms.com/
 
-```
-There are many studies on how to use various data such as visual expression, voice, and text to improve the performance of emotion recognition algorithms.
-Each type of data can be used alone in the classification algorithm, and when used together for analysis, better performance is observed empirically.
-This multimodal technique simply uses text and voice related to the speech (Ho et al., 2020),
-or additionally uses visual information such as the speaker's expression that occurs at the same time as the speech (Zadeh et al., 2018; Mittal et al., 2020; Delbrouck et al., 2020).
-Algorithms that consider multimodality combine data of different properties for one target task.
-Among the studies for emotion recognition, there are studies that perform classification by hierarchically combining the relations between modals(Zadeh et al., 2018),
-or to select valid features using relations between modals(Mittal et al., 2020).
-Attention mechanisms, which are showing good performance in recent years,
-have also been used in several studies to find the relationship between modals(Ho et al., 2020; Delbrouck et al., 2020).
-
-Zadeh, A. B., Liang, P. P., Poria, S., Cambria, E., & Morency, L. P. (2018, July).
-Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph.
-In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 2236-2246).
-
-Mittal, T., Bhattacharya, U., Chandra, R., Bera, A., & Manocha, D. (2020).
-M3ER: Multiplicative Multimodal Emotion Recognition using Facial, Textual, and Speech Cues.
-In AAAI (pp. 1359-1367).
-
-Ho, N. H., Yang, H. J., Kim, S. H., & Lee, G. (2020).
-Multimodal Approach of Speech Emotion Recognition Using Multi-Level Multi-Head Fusion Attention-Based Recurrent Neural Network.
-IEEE Access, 8, 61672-61686.
-
-Delbrouck, J. B., Tits, N., Brousmiche, M., & Dupont, S. (2020).
-A Transformer-based joint-encoding for Emotion Recognition and Sentiment Analysis.
-arXiv preprint arXiv:2006.15955.
-```
-
 ## DEV
 - 자동완성기능
 
