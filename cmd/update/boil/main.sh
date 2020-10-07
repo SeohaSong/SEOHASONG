@@ -13,3 +13,8 @@ do
 done
 rm -rf boilerplate
 mv boilerplate_ boilerplate
+
+cd boilerplate
+git submodule init
+git submodule update --remote
+$DDD push
