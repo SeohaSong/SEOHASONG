@@ -4,7 +4,6 @@ data/*
 !data/.gitkeep
 env/*
 !env/.gitkeep
-!env/DDD
 
 **/.Trash-1000
 **/.DS_Store
