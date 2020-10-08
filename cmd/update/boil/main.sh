@@ -3,18 +3,13 @@ echo seoha-song
 cat $DDD_PATH/env/SR-KEY
 echo
 
-cd $DDD_PATH/data
-git clone https://github.com/seoha-song/boilerplate.git boilerplate_
+nxt_path=$DDD_PATH/data/boilerplate_
+git clone https://github.com/SeohaSong/boilerplate.git $nxt_path
 
-for val in .git env data
-do
-    rm -rf boilerplate_/$val
-    mv boilerplate/$val boilerplate_/$val
-done
-rm -rf boilerplate
-mv boilerplate_ boilerplate
-
-cd boilerplate
-git submodule init
-git submodule update --remote
-$DDD push
+cd $DDD_PATH/data/boilerplate
+mv .git $DDD_PATH/data/git
+mv $nxt_path/.git .git
+rm -rf $nxt_path
+git reset --hard HEAD
+rm -rf .git
+mv $DDD_PATH/data/git .git
