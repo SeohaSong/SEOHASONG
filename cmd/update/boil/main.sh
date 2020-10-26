@@ -10,10 +10,9 @@ cd $DDD_PATH/data/boilerplate
 mv .git $DDD_PATH/data/git
 mv $nxt_path/.git .git
 rm -rf $nxt_path
+
+git submodule deinit --all -f || :
+git add .
 git reset --hard HEAD
 rm -rf .git
 mv $DDD_PATH/data/git .git
-
-git submodule init
-git submodule update --remote
-$DDD push

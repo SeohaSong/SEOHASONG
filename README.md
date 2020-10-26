@@ -9,7 +9,6 @@
 - 서클ci
 - cpp icu
 - smb 프로토콜
-- 리플렉션 cpp (게임프로그래밍 패턴에 해당 내용 있나봄)
 
 ## LEARN
 - LLVM
@@ -36,20 +35,14 @@
 - val_: sub, template
 
 ```
-
---------------------------------------------------------------------------------
 archi
-  cmd
   ddd
-  app: after build, release
-  env: for build
-  data: too big data
-  tools: utils
-  src: essential components for build
-    cxx
-    include
-    python
-    js
+    cmd
+    tools: static data
+  data: dynamic data
+  app: after main build
+  env: before main build
+  src: essential components
 changes
   include => src/include
   env => env/lib
@@ -57,10 +50,5 @@ changes
 IF(EXISTS file-name)
 docker image
   java8, CPATH setting (for jni)
-jupyter => ddd/jupyter
-ddd aa bb cc
-  => $1 != bb
-  => $1 == cc
-env => .env 검토
 .vscode/settings.json 백업로직 추가
 ```
