@@ -13,3 +13,7 @@ rm -rf $nxt_path
 git reset --hard HEAD
 rm -rf .git
 mv $DDD_PATH/data/git .git
+
+git submodule init
+git submodule update --remote
+$DDD push
