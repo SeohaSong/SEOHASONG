@@ -6,6 +6,10 @@
 
 ## DEV
 - 자동완성기능
+- 서클ci
+- cpp icu
+- smb 프로토콜
+- 리플렉션 cpp (게임프로그래밍 패턴에 해당 내용 있나봄)
 
 ## LEARN
 - LLVM
@@ -23,3 +27,40 @@
 - python cxx binding
     - https://realpython.com/python-bindings-overview/
     - http://blog.behnel.de/posts/cython-pybind11-cffi-which-tool-to-choose.html
+
+## RULE
+- .cmd: 프라이빗
+- -cmd: 세션유지
+- abc => ((a)b)c
+- _val: hidden, private
+- val_: sub, template
+
+```
+
+--------------------------------------------------------------------------------
+archi
+  cmd
+  ddd
+  app: after build, release
+  env: for build
+  data: too big data
+  tools: utils
+  src: essential components for build
+    cxx
+    include
+    python
+    js
+changes
+  include => src/include
+  env => env/lib
+  tools/cxx => src/cxx
+IF(EXISTS file-name)
+docker image
+  java8, CPATH setting (for jni)
+jupyter => ddd/jupyter
+ddd aa bb cc
+  => $1 != bb
+  => $1 == cc
+env => .env 검토
+.vscode/settings.json 백업로직 추가
+```
