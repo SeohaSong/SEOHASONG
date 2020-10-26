@@ -4,7 +4,7 @@ cat $DDD_PATH/env/SR-KEY
 echo
 
 nxt_path=$DDD_PATH/data/boilerplate_
-git clone https://github.com/SeohaSong/boilerplate.git $nxt_path
+git clone https://github.com/seoha-song/boilerplate.git $nxt_path
 
 cd $DDD_PATH/data/boilerplate
 mv .git $DDD_PATH/data/git
