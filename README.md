@@ -9,6 +9,8 @@
 - 서클ci
 - cpp icu
 - smb 프로토콜
+- 메모리릭 valgrind
+- 정적분석 SonarQube
 
 ## LEARN
 - LLVM
@@ -27,28 +29,21 @@
     - https://realpython.com/python-bindings-overview/
     - http://blog.behnel.de/posts/cython-pybind11-cffi-which-tool-to-choose.html
 
+## Learning
+웹 근본
+- https://developers.google.com/web/fundamentals
+코어 자바스크립트
+- http://www.yes24.com/Product/Goods/78586788
+고성능 파이썬
+- https://www.hanbit.co.kr/store/books/look.php?p_code=B6632668913
+함수형 사고
+- https://www.hanbit.co.kr/store/books/look.php?p_code=B6064588422
+핸즈온 머신러닝
+- http://www.yes24.com/Product/Goods/89959711
+
 ## RULE
 - .cmd: 프라이빗
 - -cmd: 세션유지
 - abc => ((a)b)c
 - _val: hidden, private
 - val_: sub, template
-
-```
-archi
-  ddd
-    cmd
-    tools: static data
-  data: dynamic data
-  app: after main build
-  env: before main build
-  src: essential components
-changes
-  include => src/include
-  env => env/lib
-  tools/cxx => src/cxx
-IF(EXISTS file-name)
-docker image
-  java8, CPATH setting (for jni)
-.vscode/settings.json 백업로직 추가
-```
