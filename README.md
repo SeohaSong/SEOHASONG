@@ -10,6 +10,7 @@
 - 메모리릭 valgrind
 - 정적분석 SonarQube
 ```
+python-builder
 .vscode/settings.json 백업로직 추가
 docker image
   ubuntu 16.04
@@ -26,8 +27,6 @@ cmd
     - https://web.dev/learn/
 - ONDEVICE
     - https://github.com/Samsung/ONE
-- google
-    - https://docs.google.com/document/d/122j9aYgq7HEMA8LKtrgOCb9qFC2klnmTtSctzTHLybs/edit
 - js cxx binding
     - node to cpp
     - webAssembly
@@ -46,3 +45,10 @@ cmd
     - https://www.hanbit.co.kr/store/books/look.php?p_code=B6064588422
 - 핸즈온 머신러닝
     - http://www.yes24.com/Product/Goods/89959711
+
+## Keywords
+- Programmatic Method
+- Layout(Reflow) Paint(Repaint) Composite
+    - https://csstriggers.com/
+- Naming tip
+    - https://www.allacronyms.com/

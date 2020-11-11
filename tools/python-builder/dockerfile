@@ -1,0 +1,9 @@
+FROM ubuntu:16.04
+
+RUN apt update --yes
+RUN apt install --yes --no-install-recommends binutils
+RUN apt install --yes --no-install-recommends python3-dev
+RUN apt install --yes --no-install-recommends python3-pip
+
+RUN python3 -m pip install --upgrade pip 
+RUN python3 -m pip install --upgrade pyinstaller
