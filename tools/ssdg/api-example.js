@@ -167,6 +167,8 @@ const 술정보_응답 = [
             "star": 4.2, // 평균 별점
             "star-distr": [4, 58, 29, 19, 10, 39, 121, 13, 12, 3], // 별점 히스토그램 10칸짜리
             "star-n": 308, // 평가 수 (위 배열 숫자 다 합한 값)
+            "taste-n": 20, // 맛정보 수
+            "review-n": 2 // 리뷰 수
         } // 유저 통계에 의해서만 산출되는 값으로 표현
     }
 ]
@@ -178,7 +180,7 @@ const 술리스트_요청 = [
         "email": "johndoe@mail.com" | null,
         "token": "c2778d43400d656e25671b58a5f6c2b82278c5f5" | null,
         "sool-ids": null | [142, 26, 38], // null이면 전체에서 찾구, 배열이면 응답할때도 순서 유지되어야함
-        "criteria": null | "review-ct", // sool-ids가 null이면 이건 null이면 절대 안됨.
+        "criteria": null | "star" | "star-n" | "taste-n" | "review-n", // sool-ids가 null이면 이건 null이면 절대 안됨.
         "reverse": true | false
     }
 ]
