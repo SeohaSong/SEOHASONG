@@ -17,8 +17,8 @@ docker image
   install java8 (for jni)
 cmd
   command-name: 본 명령
-  commane-name__b: 선행 명령
-  commane-name__e: 후행 명령
+  .command-name: 비노출
+  -command-name: 세션유지
 ```
 
 ## LEARN
