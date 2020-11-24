@@ -83,6 +83,7 @@ const 계정가입_응답 = [
     null
 ]
 
+
 const 계정로그인_요청 = [
     "get-acct",
     {
