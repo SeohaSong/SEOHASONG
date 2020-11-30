@@ -54,7 +54,8 @@ interface SoolInformation
     "scent": string[],
     "knowhow": longString, // 맛있게 마시기
     "intro": longString,
-    "story": longString
+    "story": longString,
+    "brewery": string // 양조장 공식 홈페이지 url
 }
 const soolInformation_예시: SoolInformation = {
     "name": ["금정산성 막걸리", "금정산성 토산주"],
@@ -75,7 +76,7 @@ const soolInformation_예시: SoolInformation = {
     "story": `
         금정산성막걸리는 그 유래가 정확하지는 않지만 조선 초기부터 이곳 화전민이...
     `,
-    
+    "brewery": "http://www.sanmak.kr/"
 }
 
 interface 온디바이스_요청 extends 요청프로토콜
