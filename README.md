@@ -20,10 +20,6 @@ cmd
   command-name: 본 명령
   .command-name: 비노출
   -command-name: 세션유지
-
-컨피던스 리스트
-뒤에서 자주 등장하던 수행
-
 ```
 
 ## LEARN
