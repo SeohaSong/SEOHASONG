@@ -47,7 +47,7 @@ interface SoolInformation
     "img": string[], // 파일 사이즈 기준으로 오름차순 정렬
     "type": "탁주" | "청주" | "증류식소주" | "등등 리스트 확정 필요",
     "proof": integer, // 도수
-    "vol": integer, // 용량, ml기준
+    "vol": integer[], // 용량, ml기준
     "taste": [integer, integer, integer, integer, integer],
          // 기본 설정된 디폴트 5개 미각
     "pairing": string[],
@@ -63,7 +63,7 @@ const soolInformation_예시: SoolInformation = {
     "img": ["img-url1", "img-url2"],
     "type": "탁주",
     "proof": 7,
-    "vol": 750,
+    "vol": [750, 1500],
     "taste": [3, 5, 1, 2, 4],
     "pairing": ["마른안주", "한식"],
     "scent": ["요거트"],
@@ -74,7 +74,8 @@ const soolInformation_예시: SoolInformation = {
     `,
     "story": `
         금정산성막걸리는 그 유래가 정확하지는 않지만 조선 초기부터 이곳 화전민이...
-    `     
+    `,
+    
 }
 
 interface 온디바이스_요청 extends 요청프로토콜
