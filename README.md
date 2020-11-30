@@ -1,11 +1,6 @@
 # seohasong System
 > [우주 최강 강력하고 빈틈없는 라이센스를 따름 무단 사용 걸리면 10억달러 부과 및 지옥행](http://www.bloter.net/archives/209318)
 
-
-컨피던스와 이후 커멘드 동시 확인
-목록중에...
-
-
 ## DEV
 - 자동완성기능
 - 공유기 해킹 및 포켓몬스터 선물서버 개발
@@ -25,9 +20,15 @@ cmd
   command-name: 본 명령
   .command-name: 비노출
   -command-name: 세션유지
+
+컨피던스 리스트
+뒤에서 자주 등장하던 수행
+
 ```
 
 ## LEARN
+- 코드리뷰 practice
+	- https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 - 웹 근본
     - https://developers.google.com/web/fundamentals
     - https://web.dev/learn/
