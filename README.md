@@ -12,13 +12,12 @@
 ```
 python-builder
 .vscode/settings.json 백업로직 추가
-cmd
-  command-name: 본 명령
-  .command-name: 비노출
-  -command-name: 세션유지
+이토프로세스 블랙숄츠
 ```
 
 ## LEARN
+- PS
+    - https://docs.google.com/document/d/122j9aYgq7HEMA8LKtrgOCb9qFC2klnmTtSctzTHLybs/edit
 - 코드리뷰 practice
 	- https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 - 웹 근본
