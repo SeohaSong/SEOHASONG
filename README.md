@@ -12,10 +12,6 @@
 ```
 python-builder
 .vscode/settings.json 백업로직 추가
-docker image
-  ubuntu 16.04
-  install java8 (for jni)
-  python flask
 cmd
   command-name: 본 명령
   .command-name: 비노출
