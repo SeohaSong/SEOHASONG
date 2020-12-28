@@ -8,6 +8,13 @@
     - https://csstriggers.com/
 - Variable Naming
     - https://www.allacronyms.com/
+- Languages
+    - c/cpp
+    - python
+    - javascript/typescript
+    - java
+    - swift
+    - csharp
 
 ## ARENA
 - CSS Only 
