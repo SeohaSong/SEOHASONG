@@ -4,6 +4,7 @@
 ## Utils
 - Search keyword list
     - Programmatic Method
+    - Lexicographical Order
 - Layout(Reflow) Paint(Repaint) Composite
     - https://csstriggers.com/
 - Variable Naming
@@ -12,6 +13,7 @@
     - c/cpp
     - python
     - javascript/typescript
+    - go
     - java
     - swift
     - csharp
