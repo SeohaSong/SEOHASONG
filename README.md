@@ -12,11 +12,10 @@
 - Languages
     - c/cpp
     - python
-    - javascript/typescript
     - go
+    - javascript/typescript
     - java
     - swift
-    - csharp
 
 ## ARENA
 - CSS Only 
