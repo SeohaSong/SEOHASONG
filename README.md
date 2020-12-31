@@ -10,12 +10,13 @@
 - Variable Naming
     - https://www.allacronyms.com/
 - Languages
-    - c/cpp
-    - python
+    - c
     - go
-    - javascript/typescript
+    - Rust
     - java
     - swift
+    - python
+    - typescript
 
 ## ARENA
 - CSS Only 
@@ -29,5 +30,5 @@
 - GLUE
     - https://super.gluebenchmark.com/
 - PS
-    - https://leetcode.com/
     - https://codeforces.com/
+    - https://codingcompetitions.withgoogle.com/codejam => tee shirt
