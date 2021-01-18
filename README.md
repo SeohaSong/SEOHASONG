@@ -6,13 +6,14 @@
     - Programmatic Method
     - Lexicographical Order
     - Forward Declaration
+	- as-if Rule
 - Layout(Reflow) Paint(Repaint) Composite
     - https://csstriggers.com/
 - Variable Naming
     - https://www.allacronyms.com/
 - Languages
     - cxx
-    - typescript
+    - node
     - python
     - go
     - java
