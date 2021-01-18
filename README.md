@@ -11,7 +11,7 @@
     - https://csstriggers.com/
 - Variable Naming
     - https://www.allacronyms.com/
-- Languages
+- platform
     - cxx
     - node
     - python
