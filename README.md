@@ -6,7 +6,11 @@
 	- As-If Rule
     - Programmatic Method
     - Lexicographical Order
+    - Lexical Scoping, Lexical Context
     - Forward Declaration, Hoisting
+    - Template Literals
+    - Literal, Object Literal
+
 - Layout(Reflow) Paint(Repaint) Composite
     - https://csstriggers.com/
 - Variable Naming
