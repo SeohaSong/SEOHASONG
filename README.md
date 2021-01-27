@@ -10,19 +10,18 @@
     - Forward Declaration, Hoisting
     - Template Literals
     - Literal, Object Literal
-
 - Layout(Reflow) Paint(Repaint) Composite
     - https://csstriggers.com/
 - Variable Naming
     - https://www.allacronyms.com/
 - platform (cmd system)
     - cxx
-    - node
-    - python
+    - rust
     - go
     - java
     - swift
-    - csharp
+    - node
+    - python
 
 ## ARENA
 - CSS Only 
