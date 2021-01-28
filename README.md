@@ -16,12 +16,14 @@
     - https://www.allacronyms.com/
 - platform (cmd system)
     - cxx
+    - java
     - rust
     - go
-    - java
     - swift
-    - node
+    - kotlin
     - python
+    - node
+    - bash
 
 ## ARENA
 - CSS Only 
