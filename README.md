@@ -26,6 +26,8 @@
     - bash
 
 ## ARENA
+- MDN
+	- https://developer.mozilla.org/ko/docs/MDN/About
 - CSS Only 
     - https://cssdeck.com/
 - HTML5
@@ -38,4 +40,5 @@
     - https://super.gluebenchmark.com/
 - PS
     - https://codeforces.com/
-    - https://codingcompetitions.withgoogle.com/codejam => tee shirt
+    - https://leetcode.com/ (mid ~ hard)
+    - https://codingcompetitions.withgoogle.com/ (shirt)
