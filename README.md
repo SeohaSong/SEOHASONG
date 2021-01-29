@@ -14,10 +14,14 @@
     - https://csstriggers.com/
 - Variable Naming
     - https://www.allacronyms.com/
-- Toolchain
+- Toolchains
 	- cxx rust go
     - node python
     - llvm dotnet jvm
+- Platforms
+    - browser
+    - kubernetes
+    - tensorflow
 
 ## ARENA
 - MDN
