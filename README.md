@@ -16,13 +16,13 @@
     - https://www.allacronyms.com/
 - platform (cmd system)
     - cxx
-    - java
     - rust
     - go
-    - swift
-    - kotlin
-    - python
+    - llvm
+    - dotnet
+    - jvm
     - node
+    - python
     - bash
 
 ## ARENA
