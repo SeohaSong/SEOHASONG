@@ -14,16 +14,10 @@
     - https://csstriggers.com/
 - Variable Naming
     - https://www.allacronyms.com/
-- platform (cmd system)
-    - cxx
-    - rust
-    - go
-    - llvm
-    - dotnet
-    - jvm
-    - node
-    - python
-    - bash
+- Toolchain
+	- cxx rust go
+    - node python
+    - llvm dotnet jvm
 
 ## ARENA
 - MDN
