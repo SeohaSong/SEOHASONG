@@ -1,4 +1,4 @@
-**/__tmp__
+**/.temp
 
 data/*
 !data/.gitkeep
