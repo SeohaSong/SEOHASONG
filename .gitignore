@@ -1,12 +1,14 @@
+**/.ipynb_checkpoints
+**/__pycache__
+**/bin
+**/lib
+**/build
+**/dependency-lock.txt
+**/.Trash-1000
+
 **/.temp
 
 data/*
 !data/.gitkeep
 env/*
 !env/.gitkeep
-
-**/.Trash-1000
-**/.DS_Store
-**/.ipynb_checkpoints
-**/__pycache__
-**/.vscode
