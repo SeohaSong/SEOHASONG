@@ -1,5 +1,0 @@
-(
-
-python main.py
-
-)
